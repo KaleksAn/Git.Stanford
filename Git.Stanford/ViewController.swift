@@ -20,9 +20,6 @@ class ViewController: UIViewController {
         print("Change without commit")
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        print("Third print")
-    }
+    
 }
 
