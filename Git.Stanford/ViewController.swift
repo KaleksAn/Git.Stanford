@@ -20,8 +20,6 @@ class ViewController: UIViewController {
         print("Change without commit")
     }
     
-    //New comment
-    //Second comment
     
 }
 
