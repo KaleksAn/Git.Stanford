@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     
     
     //First comment
-    
     func simpleFunc() {
         print("Simple function")
     }
