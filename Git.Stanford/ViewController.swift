@@ -26,7 +26,13 @@ class ViewController: UIViewController {
         print("viewDidAppear")
     }
     
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        print("viewWillLayoutSubviews")
+    }
+    
     override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
         print("Memory worning func")
     }
     
