@@ -21,12 +21,8 @@ class ViewController: UIViewController {
     }
     
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        print("viewDidAppear")
-    }
-    
     //First comment
+    
     func simpleFunc() {
         print("Simple function")
         print("Recovery function")
