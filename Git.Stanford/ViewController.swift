@@ -21,8 +21,17 @@ class ViewController: UIViewController {
     }
     
     
-    //First comment
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("viewDidAppear")
+    }
     
+    override func didReceiveMemoryWarning() {
+        print("Memory worning func")
+    }
+    
+    
+    //First comment
     func simpleFunc() {
         print("Simple function")
         print("Recovery function")
